@@ -1,0 +1,167 @@
+\doxysection{Domain.\+Triangle Class Reference}
+\hypertarget{class_domain_1_1_triangle}{}\label{class_domain_1_1_triangle}\index{Domain.Triangle@{Domain.Triangle}}
+
+
+Represents a triangle with properties for its base, right side, left side, and height. Provides functionality to calculate the perimeter and area of the triangle.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_domain_1_1_triangle_a99d69517658f186cdf685344d0bff754}\label{class_domain_1_1_triangle_a99d69517658f186cdf685344d0bff754} 
+{\bfseries Triangle} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Triangle class with default values (1) for base, right side, left side, and height. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_domain_1_1_triangle_ac220e48ee638448d1c56770b06853397}{Triangle}} (double b, double rs, double ls)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Triangle class with specified values for base, right side, and left side. The height remains at its default value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_domain_1_1_triangle_ab17b5a486031b12c26164bf4e9a99d9f}{Triangle}} (double b, double rs, double ls, double h)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Triangle class with specified values for base, right side, left side, and height. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_domain_1_1_triangle_aa97a6f92e345b98a765f376c8317020a}{Triangle}} (double b, double h)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Triangle class with specified values for base and height. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_domain_1_1_triangle_ac4f8981ff1c5f4f10ce18935438cd593}{Triangle}} (\mbox{\hyperlink{class_domain_1_1_triangle}{Triangle}} t)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the Triangle class by copying properties from another triangle. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_domain_1_1_triangle_ab24b0145696d3b4a6985b1da54668782}{Perimeter}} ()
+\begin{DoxyCompactList}\small\item\em Calculates and returns the perimeter of the triangle. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{class_domain_1_1_triangle_a96852c761b25e31778f9e95324a0c5f5}{Area}} ()
+\begin{DoxyCompactList}\small\item\em Calculates and returns the area of the triangle. \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{class_domain_1_1_triangle_aa7f13b679e58ad029e90f0457b433ced}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Provides a string representation of the Triangle object, including its base, sides, and height. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_domain_1_1_triangle_a58f1109921baafc4095ee540ae8123a0}\label{class_domain_1_1_triangle_a58f1109921baafc4095ee540ae8123a0} 
+double {\bfseries Base}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the base of the triangle. The value must be a positive number greater than zero. \end{DoxyCompactList}\item 
+\Hypertarget{class_domain_1_1_triangle_a2550691d2ccbf96c6196fa73f36fa07f}\label{class_domain_1_1_triangle_a2550691d2ccbf96c6196fa73f36fa07f} 
+double {\bfseries Right\+Side}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the right side of the triangle. The value must be a positive number greater than zero. \end{DoxyCompactList}\item 
+\Hypertarget{class_domain_1_1_triangle_af958a9dc0f24072e5c6f6283bf3bed2f}\label{class_domain_1_1_triangle_af958a9dc0f24072e5c6f6283bf3bed2f} 
+double {\bfseries Left\+Side}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the left side of the triangle. The value must be a positive number greater than zero. \end{DoxyCompactList}\item 
+\Hypertarget{class_domain_1_1_triangle_af0c202e448635b6a655b5ce77ee6c895}\label{class_domain_1_1_triangle_af0c202e448635b6a655b5ce77ee6c895} 
+double {\bfseries Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the height of the triangle. The value must be a positive number greater than zero. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a triangle with properties for its base, right side, left side, and height. Provides functionality to calculate the perimeter and area of the triangle. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_domain_1_1_triangle_ac220e48ee638448d1c56770b06853397}\label{class_domain_1_1_triangle_ac220e48ee638448d1c56770b06853397} 
+\index{Domain.Triangle@{Domain.Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Triangle()}{Triangle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily Domain.\+Triangle.\+Triangle (\begin{DoxyParamCaption}\item[{double}]{b,  }\item[{double}]{rs,  }\item[{double}]{ls }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the Triangle class with specified values for base, right side, and left side. The height remains at its default value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & The value of the triangle\textquotesingle{}s base. It must be a positive value greater than zero.\\
+\hline
+{\em rs} & The value of the triangle\textquotesingle{}s right side. It must be a positive value greater than zero.\\
+\hline
+{\em ls} & The value of the triangle\textquotesingle{}s left side. It must be a positive value greater than zero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_domain_1_1_triangle_ab17b5a486031b12c26164bf4e9a99d9f}\label{class_domain_1_1_triangle_ab17b5a486031b12c26164bf4e9a99d9f} 
+\index{Domain.Triangle@{Domain.Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Triangle()}{Triangle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily Domain.\+Triangle.\+Triangle (\begin{DoxyParamCaption}\item[{double}]{b,  }\item[{double}]{rs,  }\item[{double}]{ls,  }\item[{double}]{h }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the Triangle class with specified values for base, right side, left side, and height. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & The value of the triangle\textquotesingle{}s base. It must be a positive value greater than zero.\\
+\hline
+{\em rs} & The value of the triangle\textquotesingle{}s right side. It must be a positive value greater than zero.\\
+\hline
+{\em ls} & The value of the triangle\textquotesingle{}s left side. It must be a positive value greater than zero.\\
+\hline
+{\em h} & The height of the triangle. It must be a positive value greater than zero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_domain_1_1_triangle_aa97a6f92e345b98a765f376c8317020a}\label{class_domain_1_1_triangle_aa97a6f92e345b98a765f376c8317020a} 
+\index{Domain.Triangle@{Domain.Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Triangle()}{Triangle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily Domain.\+Triangle.\+Triangle (\begin{DoxyParamCaption}\item[{double}]{b,  }\item[{double}]{h }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the Triangle class with specified values for base and height. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & The value of the triangle\textquotesingle{}s base. It must be a positive value greater than zero.\\
+\hline
+{\em h} & The height of the triangle. It must be a positive value greater than zero.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_domain_1_1_triangle_ac4f8981ff1c5f4f10ce18935438cd593}\label{class_domain_1_1_triangle_ac4f8981ff1c5f4f10ce18935438cd593} 
+\index{Domain.Triangle@{Domain.Triangle}!Triangle@{Triangle}}
+\index{Triangle@{Triangle}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Triangle()}{Triangle()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily Domain.\+Triangle.\+Triangle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_domain_1_1_triangle}{Triangle}}}]{t }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the Triangle class by copying properties from another triangle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t} & The Triangle object from which to copy properties.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_domain_1_1_triangle_a96852c761b25e31778f9e95324a0c5f5}\label{class_domain_1_1_triangle_a96852c761b25e31778f9e95324a0c5f5} 
+\index{Domain.Triangle@{Domain.Triangle}!Area@{Area}}
+\index{Area@{Area}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Area()}{Area()}}
+{\footnotesize\ttfamily double Domain.\+Triangle.\+Area (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates and returns the area of the triangle. 
+
+\begin{DoxyReturn}{Returns}
+The area of the triangle calculated using the base and height.
+\end{DoxyReturn}
+\Hypertarget{class_domain_1_1_triangle_ab24b0145696d3b4a6985b1da54668782}\label{class_domain_1_1_triangle_ab24b0145696d3b4a6985b1da54668782} 
+\index{Domain.Triangle@{Domain.Triangle}!Perimeter@{Perimeter}}
+\index{Perimeter@{Perimeter}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{Perimeter()}{Perimeter()}}
+{\footnotesize\ttfamily double Domain.\+Triangle.\+Perimeter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calculates and returns the perimeter of the triangle. 
+
+\begin{DoxyReturn}{Returns}
+The sum of all sides of the triangle.
+\end{DoxyReturn}
+\Hypertarget{class_domain_1_1_triangle_aa7f13b679e58ad029e90f0457b433ced}\label{class_domain_1_1_triangle_aa7f13b679e58ad029e90f0457b433ced} 
+\index{Domain.Triangle@{Domain.Triangle}!ToString@{ToString}}
+\index{ToString@{ToString}!Domain.Triangle@{Domain.Triangle}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string Domain.\+Triangle.\+To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Provides a string representation of the Triangle object, including its base, sides, and height. 
+
+\begin{DoxyReturn}{Returns}
+A string detailing the dimensions of the triangle.
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Domain/Triangle.\+cs\end{DoxyCompactItemize}
