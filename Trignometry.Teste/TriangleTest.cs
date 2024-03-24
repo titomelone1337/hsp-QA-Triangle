@@ -48,18 +48,6 @@ public class TriangleTest
     }
 
     /// <summary>
-    /// Tests whether the GetTriangleType method correctly identifies an equilateral triangle.
-    /// An equilateral triangle has all three sides of equal length.
-    /// </summary>
-    [Fact]
-    public void GetTriangleType_ReturnsEquilateral_WhenAllSidesAreEqual()
-    {
-        var triangle = new Triangle(5, 5, 5);
-        var result = triangle.GetTriangleType();
-        Assert.Equal("Equilateral", result);
-    }
-
-    /// <summary>
     /// Tests whether the GetTriangleType method correctly identifies an isosceles triangle.
     /// An isosceles triangle has exactly two sides of equal length.
     /// This test covers all three possible configurations of an isosceles triangle.
@@ -94,18 +82,6 @@ public class TriangleTest
         var triangle = new Triangle(side1, side2, side3);
         var result = triangle.GetTriangleType();
         Assert.Equal(expectedType, result);
-    }
-
-    /// <summary>
-    /// Tests whether the GetTriangleType method correctly identifies a scalene triangle.
-    /// A scalene triangle has all sides of different lengths.
-    /// </summary>
-    [Fact]
-    public void GetTriangleType_ReturnsScalene_WhenNoSidesAreEqual()
-    {
-        var triangle = new Triangle(5, 4, 6);
-        var result = triangle.GetTriangleType();
-        Assert.Equal("Scalene", result);
     }
 
     /// <summary>
