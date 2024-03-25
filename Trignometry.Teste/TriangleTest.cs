@@ -71,7 +71,7 @@ public class TriangleTest
     /// <summary>
     /// Tests whether the GetTriangleType method correctly identifies an isosceles triangle.
     /// An isosceles triangle has exactly two sides of equal length.
-    /// This test covers all three possible configurations of an isosceles triangle.
+    /// This test covers all three possible configurations of an isosceles triangle, with paremeterized tests.
     /// </summary>
     [Theory]
     [InlineData(5, 5, 5, "Equilateral")]
