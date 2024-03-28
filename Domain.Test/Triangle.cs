@@ -163,7 +163,7 @@ public class Triangle
         {
             return "Equilateral";
         }
-        else if (RightSide == Base || RightSide == LeftSide || Base == LeftSide)
+        else if (RightSide == Base || RightSide == SideC || SideB == SideC)
         {
             return "Isosceles";
         }
