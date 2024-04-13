@@ -1,4 +1,4 @@
-﻿using Domain.Test;
+﻿using DomainTest;
 using FluentAssertions;
 
 namespace Trignometry.Test;
@@ -15,7 +15,7 @@ public class TriangleTest
     /// </summary>
     [Fact]
     public void TriangleArea_Base2_Height3_ShouldBe_3()
-        => new Triangle(2, 3).Area().Should().Be(4);
+        => new Triangle(2, 3).Area().Should().Be(3);
     //{
     // Creates an instance of Triangle with base = 2 and height = 3 and calculates the area.
     //var area = new Triangle(2, 3).Area();

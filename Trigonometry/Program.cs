@@ -1,4 +1,4 @@
-﻿using Domain.Test;
+﻿using DomainTest;
 
 Triangle t = new Triangle(1,2,3);
 double area = t.Area();
