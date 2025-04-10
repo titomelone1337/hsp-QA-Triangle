@@ -11,8 +11,4 @@
     <ProjectReference Include="..\Domain\Domain.Test.csproj" />
     <ProjectReference Include="..\DomainTest\DomainTest.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controller\" />
-  </ItemGroup>
 </Project>
